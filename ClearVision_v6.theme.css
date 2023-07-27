@@ -142,10 +142,18 @@
   }
 
   /* Hide Nitro gift button */
-  button[aria-label="Send a gift"] {
+  .button[aria-label="Send a gift"] {
       display: none;
   }
 
-  /* Hide Buy Nitro  */
+  /* Hide Buy Nitro */
   .channel-1Shao0 a[href^="/store"] { display: none; }
+
+  /* Hide SuperChat */
+  .button[aria-label="Add Super Reaction"]{
+    display: none;
+  }
+  .button[aria-label="Add Super Reaction"]{
+    display: none;
+  }
 }
