@@ -140,4 +140,12 @@
   .da-colorPremium {
       display: none;
   }
+
+  /* Hide Nitro gift button */
+  button[aria-label="Send a gift"] {
+      display: none;
+  }
+
+  /* Hide Buy Nitro  */
+  .channel-1Shao0 a[href^="/store"] { display: none; }
 }
