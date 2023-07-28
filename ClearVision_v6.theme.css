@@ -112,48 +112,52 @@
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+}
 
-  /* Hide Nitro message bar button*/
-  .da-buttons > button[aria-label="Send a gift"] {
-      display: none;
-  }
+/* Hide Nitro message bar button*/
+.da-buttons > button[aria-label="Send a gift"] {
+  display: none;
+}
 
-  /* Hide Nitro home tab button*/
-  .da-content > a[href="/store"] {
-      display: none;
-  }
+/* Hide Nitro home tab button*/
+.da-content > a[href="/store"] {
+  display: none;
+}
 
-  /*Hides Nitro (+billing) from the settings!*/
-  .da-item:nth-child(n+6):nth-child(-n+11) {
-      display: none;
-  }
+.item-1tOPte {
+display: flex;
+}
 
-  .item-1tOPte {
-    display: flex;
-  }
-  
-  /*Almost forgot about the guild icon.*/
-  .da-guildIconContainer {
-      display: none;
-  }
-  /*and the pop-up list one.*/
-  .da-colorPremium {
-      display: none;
-  }
+/*Almost forgot about the guild icon.*/
+.da-guildIconContainer {
+  display: none;
+}
+/*and the pop-up list one.*/
+.da-colorPremium {
+  display: none;
+}
 
-  /* Hide Nitro gift button */
-  .button[aria-label="Send a gift"] {
-      display: none;
-  }
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
 
-  /* Hide Buy Nitro */
-  .channel-1Shao0 a[href^="/store"] { display: none; }
+/* Hide Buy Nitro */
+.channel-1Shao0 a[href^="/store"] {
+   display: none;
+}
 
-  /* Hide SuperChat */
-  .button[aria-label="Add Super Reaction"]{
-    display: none;
-  }
-  .button[aria-label="Add Super Reaction"]{
-    display: none;
-  }
+/* Hide SuperChat */
+div[class*='button'][aria-label="Add Super Reaction"]{
+  display: none;
+}
+
+/* Hide Blocked Messages*/
+div[class*='blockedSystemMessage']{
+  display:none;
+}
+
+/*Hide Moderator not verifying if you don't need such*/
+.channelNotice-Bfew9I{
+  display:none;
 }
