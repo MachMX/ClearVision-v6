@@ -152,10 +152,11 @@ div[class*='button'][aria-label="Add Super Reaction"]{
   display: none;
 }
 
-/* Hide Blocked Messages*/
+/* Hide Blocked Messages
 div[class*='blockedSystemMessage']{
   display:none;
 }
+*/
 
 /*Hide Moderator not verifying if you don't need such*/
 .channelNotice-Bfew9I{
